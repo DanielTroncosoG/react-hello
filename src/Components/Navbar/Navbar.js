@@ -13,7 +13,7 @@ class Navbar extends Component {
   <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+        <a className="nav-link text-light" href="#">Home</a>
       </li>
       <li className="nav-item">
         <a className="nav-link text-light" href="#">About</a>
