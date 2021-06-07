@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "./Components/Navbar/Navbar"
 import Jumbotron from "./Components/Jumbotron/Jumbotron"
+import Footer from "./Components/Footer/Footer"
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="container bg-light">
       <Jumbotron title="A Warm Welcome!" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula sem, vulputate et lectus a, consequat suscipit lectus. Proin facilisis, ante vel commodo tincidunt, nulla erat faucibus leo, sed pharetra tellus dolor malesuada ex." button="Call to action"/>
       </div>
+      <Footer copyright="Copyright©" copyname="YourWebsite 2021" />
     </div>
   );
   }
