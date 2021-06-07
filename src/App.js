@@ -14,6 +14,6 @@ function App() {
       <Footer copyright="Copyright©" copyname="YourWebsite 2021" />
     </div>
   );
-  }
+}
 
 export default App;
